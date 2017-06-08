@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .yzx {
+            position: absolute;
+            width: 90px;
+            height: 65px;
+            background: url(img/page.png)no-repeat 0px -150px;
+            animation: move 6s linear 0s 20;
+        }
+        
+        .yzd {
+            float: left;
+            margin-left: 150px;
+            margin-top: 200px;
+            width: 248px;
+            height: 149px;
+            background: url(img/page.png);
+        }
+        
+        .box {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            float: left;
+        }
+        
+        @-webkit-keyframes move {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+            50% {
+                top: 300px;
+                left: 150px;
+                transform: rotate(45deg);
+                opacity: 0
+            }
+            100% {
+                top: 300px;
+                left: 150px;
+                transform: rotate(45deg);
+                opacity: 0
+            }
+        }
+        
+        .sjx {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 100px;
+            width: 170px;
+            height: 170px;
+            background: url(img/page.png)no-repeat 0 -311px;
+            z-index: 2;
+            animation: moveee 2s linear 0.5s 20;
+        }
+        
+        .yx {
+            width: 137px;
+            height: 136px;
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 133px;
+            background: url(img/page.png)no-repeat 0 -482px;
+            animation: moveeee 2s linear 1s 20;
+        }
+        
+        .zfx {
+            width: 96px;
+            height: 96px;
+            position: absolute;
+            margin-left: 245px;
+            margin-top: 173px;
+            background: url(img/page.png)no-repeat 0 -215px;
+            z-index: 10000;
+            animation: movee 2s linear 0s 20;
+        }
+        
+        .dp {
+            position: absolute;
+            margin-left: 105px;
+            margin-top: 100px;
+            width: 191px;
+            height: 267px;
+            background: url(img/page.png)no-repeat 0 -620px;
+        }
+        
+        .guang {
+            margin-top: 10px;
+            margin-left: 30px;
+            position: absolute;
+            width: 341px;
+            height: 256px;
+            background: url(img/page.png)no-repeat 0 -887px;
+            animation: movea 6s linear 0s 20;
+        }
+        /*定义动画*/
+        
+        @-webkit-keyframes movea {
+            0% {
+                opacity: 1;
+            }
+            25% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            75% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes movee {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @-webkit-keyframes moveee {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @-webkit-keyframes moveeee {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .huojian {
+            margin-left: 50px;
+            margin-top: 50px;
+            width: 225px;
+            height: 220px;
+            background: url(img/page.png)no-repeat -240px 0;
+            animation: moveb 0.5s linear 0s 200;
+            position: absolute;
+        }
+        
+        @-webkit-keyframes moveb {
+            0% {
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            50% {
+                margin-left: 65px;
+                margin-top: 65px;
+            }
+            100% {
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+        }
+        
+        .dong1 {
+            width: 156px;
+            height: 153px;
+            background: url(img/page.png)no-repeat -239px -220px;
+            position: absolute;
+        }
+        
+        .dong2 {
+            margin-left: 100px;
+            margin-top: 100px;
+            position: absolute;
+            width: 75px;
+            height: 73px;
+            background: url(img/page.png)no-repeat -165px -150px;
+        }
+        
+        .dong3 {
+            margin-left: 240px;
+            margin-top: 150px;
+            position: absolute;
+            width: 156px;
+            height: 153px;
+            background: url(img/page.png)no-repeat -239px -373px;
+        }
+        
+        .dong4 {
+            margin-left: 200px;
+            position: absolute;
+            width: 94px;
+            height: 93px;
+            background: url(img/page.png)no-repeat -395px -220px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+
+        <div class="yzx">
+
+        </div>
+        <div class="yzd">
+
+
+
+        </div>
+    </div>
+    <div class="box">
+        <div class="sjx">
+
+        </div>
+        <div class="yx"></div>
+        <div class="zfx"></div>
+    </div>
+    <div class="box">
+        <div class="dp">
+
+        </div>
+        <div class="guang">
+
+        </div>
+    </div>
+    <div class="box">
+        <div class="huojian">
+
+        </div>
+        <div class="dong1"></div>
+        <div class="dong2"></div>
+        <div class="dong3"></div>
+        <div class="dong4"></div>
+    </div>
+</body>
+
+</html>
